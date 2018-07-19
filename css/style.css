@@ -101,3 +101,7 @@ footer {
 a:hover {
 	border-bottom: 2px solid white;
 }
+
+#button{
+	font-size: 25px;
+}

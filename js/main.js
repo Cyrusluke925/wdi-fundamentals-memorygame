@@ -70,6 +70,16 @@ var createBoard = function() {
 
 }
 
+
+var startOver = function() {
+	document.getElementById('myForm').reset();
+};
+
+
+var refreshButton = document.getElementById('button');
+refreshButton.addEventListener('click', startOver);
+
+
 createBoard();
 
 
